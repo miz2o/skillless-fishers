@@ -12,9 +12,16 @@ public class BucketScript : MonoBehaviour
         {
             print("Fish caught!");
 
+            if (collision.gameObject.GetComponent<OVRGrabbable>() != null)
+            {
+                Destroy(collision.gameObject.GetComponent<OVRGrabbable>());
+            }
+            else if (collision.gameObject.GetComponent<CustomGrabbable>() != null)
+            {
+                Destroy(collision.gameObject.GetComponent<CustomGrabbable>());
+            }
 
-
-            Destroy(collision.gameObject);
+                Destroy(collision.gameObject);
             if (feedbackParticles != null)
             { 
               feedbackParticles.Play(); 
