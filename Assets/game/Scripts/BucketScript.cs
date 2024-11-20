@@ -12,12 +12,6 @@ public class BucketScript : MonoBehaviour
         {
             print("Fish caught!");
 
-           if (collision.transform.GetComponent<GrabDisabler>())
-           {
-                collision.transform.GetComponent<GrabDisabler>().destroyThis();
-
-           }
-
 
 
             Destroy(collision.gameObject);

@@ -13,8 +13,7 @@ GameObject:
   - component: {fileID: 534728266805783430}
   - component: {fileID: 7939130849500127752}
   - component: {fileID: 7429240347103034437}
-  - component: {fileID: 201076685}
-  - component: {fileID: 5130000338805992188}
+  - component: {fileID: 6733177510987461538}
   m_Layer: 11
   m_Name: TestFish
   m_TagString: Fish
@@ -116,7 +115,7 @@ Rigidbody:
   m_Interpolate: 1
   m_Constraints: 0
   m_CollisionDetection: 1
---- !u!114 &201076685
+--- !u!114 &6733177510987461538
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -134,15 +133,3 @@ MonoBehaviour:
   m_snapOffset: {fileID: 0}
   m_grabPoints: []
   m_grabbedBy: {fileID: 0}
---- !u!114 &5130000338805992188
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1331164018630196916}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ae51de653f89a9c4b96199f894194d76, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
