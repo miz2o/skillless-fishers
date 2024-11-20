@@ -8,13 +8,16 @@ public class CustomGrabbable : OVRGrabbable
     private Vector3 grabOffset;
 
     // Override GrabBegin method to handle the grab logic
-    public override void GrabBegin(OVRGrabber hand, Collider grabPoint)
-    {
-        base.GrabBegin(hand, grabPoint);
-        m_grabbedBy = hand;
-        m_grabbedCollider = grabPoint;
-        gameObject.GetComponent<Rigidbody>().isKinematic = true;
+    public override void GrabBegin(OVRGrabber hand, Collider grabPointy)
+    { 
+
+        if (grabPointy != null)
+        {
+            m_grabbedCollider = grabPointy;
+            gameObject.GetComponent<Rigidbody>().isKinematic = true;
             transform.position = hand.gameObject.transform.position;
             transform.rotation = hand.gameObject.transform.rotation;
+        } 
+
     }
 }
