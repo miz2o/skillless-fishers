@@ -511,6 +511,12 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &675248093 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1041817069479152784, guid: 06992c9186ee09140beab9dcf12385a7,
+    type: 3}
+  m_PrefabInstance: {fileID: 1041817069877803853}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &776243204
 GameObject:
   m_ObjectHideFlags: 0
@@ -2392,16 +2398,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: -2435521801450443038, guid: 06992c9186ee09140beab9dcf12385a7,
-        type: 3}
-      propertyPath: m_snapOffset
-      value: 
-      objectReference: {fileID: 2119201146}
-    - target: {fileID: -2435521801450443038, guid: 06992c9186ee09140beab9dcf12385a7,
-        type: 3}
-      propertyPath: m_snapPosition
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 1041817069288066884, guid: 06992c9186ee09140beab9dcf12385a7,
         type: 3}
       propertyPath: m_RootOrder
@@ -2462,7 +2458,13 @@ PrefabInstance:
       propertyPath: m_Name
       value: TestRod
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    - target: {fileID: 7573974420470966031, guid: 06992c9186ee09140beab9dcf12385a7,
+        type: 3}
+      propertyPath: handle
+      value: 
+      objectReference: {fileID: 675248093}
+    m_RemovedComponents:
+    - {fileID: 1021031435, guid: 06992c9186ee09140beab9dcf12385a7, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 06992c9186ee09140beab9dcf12385a7, type: 3}
 --- !u!114 &3469287837926406054
 MonoBehaviour:
