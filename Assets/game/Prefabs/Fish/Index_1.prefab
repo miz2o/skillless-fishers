@@ -13,9 +13,10 @@ GameObject:
   - component: {fileID: 534728266805783430}
   - component: {fileID: 7939130849500127752}
   - component: {fileID: 7429240347103034437}
-  - component: {fileID: 6733177510987461538}
+  - component: {fileID: 231105933}
+  - component: {fileID: 231105934}
   m_Layer: 11
-  m_Name: TestFish
+  m_Name: Index_1
   m_TagString: Fish
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -115,7 +116,7 @@ Rigidbody:
   m_Interpolate: 1
   m_Constraints: 0
   m_CollisionDetection: 1
---- !u!114 &6733177510987461538
+--- !u!114 &231105933
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -124,7 +125,23 @@ MonoBehaviour:
   m_GameObject: {fileID: 1331164018630196916}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 02d61468f8b77ae4b92c344bc9a600fb, type: 3}
+  m_Script: {fileID: 11500000, guid: bf14599f4c4891f43b75f6adb9839855, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Index: 1
+  Name: Test Fish
+  Description: 'test test 123 '
+  Strength: 0
+--- !u!114 &231105934
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1331164018630196916}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2b4d5183cf3677e4a8535d56143fe710, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   m_allowOffhandGrab: 1
@@ -132,4 +149,7 @@ MonoBehaviour:
   m_snapOrientation: 0
   m_snapOffset: {fileID: 0}
   m_grabPoints: []
-  m_grabbedBy: {fileID: 0}
+  handle: {fileID: 0}
+  leftInfoMenu: {fileID: 0}
+  rightInfoMenu: {fileID: 0}
+  currentMenu: {fileID: 0}
